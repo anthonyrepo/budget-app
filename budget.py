@@ -112,39 +112,3 @@ def create_spend_chart(categories):
     x_axis = x_axis[:-1]
 
     return graph_name + graph + bar_line + x_axis
-
-# boris_food = Category('Food')
-# boris_clothing = Category('Clothing')
-# boris_auto = Category('Auto')
-
-# boris_food.deposit(1000, 'initial deposit')
-# boris_food.withdraw(10.15, 'groceries')
-# #boris_food.withdraw(15.89, 'restaurant and more food')
-# boris_food.transfer(50, boris_clothing)
-
-# boris_clothing.withdraw(20.10, "Macy's")
-
-# boris_auto.deposit(1000, 'initial deposit')
-# boris_auto.withdraw(11.85, 'Spare Parts')
-
-# print(boris_food)
-# print(create_spend_chart([boris_clothing, boris_food, boris_auto]))
-
-food = Category("Food")
-entertainment = Category("Entertainment")
-business = Category("Business")
-
-food.deposit(900, "deposit")
-entertainment.deposit(900, "deposit")
-business.deposit(900, "deposit")
-food.withdraw(105.55)
-entertainment.withdraw(33.40)
-business.withdraw(10.99)
-actual = create_spend_chart([business, food, entertainment])
-print(actual)
-
-expected = "Percentage spent by category\n100|          \n 90|          \n 80|          \n 70|    o     \n 60|    o     \n 50|    o     \n 40|    o     \n 30|    o     \n 20|    o  o  \n 10|    o  o  \n  0| o  o  o  \n    ----------\n     B  F  E  \n     u  o  n  \n     s  o  t  \n     i  d  e  \n     n     r  \n     e     t  \n     s     a  \n     s     i  \n           n  \n           m  \n           e  \n           n  \n           t  "
-print(expected)
-
-print(repr(actual))
-print(repr(expected))
