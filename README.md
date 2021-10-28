@@ -1,3 +1,18 @@
+# Budget App
+
+![image](https://forthebadge.com/images/badges/made-with-python.svg)
+
+A program that manages expenses
+
+![image](https://raw.githubusercontent.com/anthonyrepo/budget-app/main/img/expenses.PNG)
+![image](https://raw.githubusercontent.com/anthonyrepo/budget-app/main/img/spend_chart.PNG)
+
+## Techonologies Used
+- Python 3.9
+- Pytest framework
+## Description
+This program is apart of a series of projects for the completion of the [FreeCodeCamp Scientific Computing with Python certification](https://www.freecodecamp.org/learn/scientific-computing-with-python/). The purpose of this program is to provide a simple way to track expenses and compare them all.
+
 ### Assignment
 
 Complete the `Category` class in `budget.py`. It should be able to instantiate objects based on different budget categories like *food*, *clothing*, and *entertainment*. When objects are created, they are passed in the name of the category. The class should have an instance variable called `ledger` that is a list. The class should also contain the following methods:
@@ -54,5 +69,9 @@ Percentage spent by category
         n     
         g     
 ```
+### Notes
+- The pytest framework was used here to provide concise unite testing for the program
 
-The unit tests for this project are in `test_module.py`.
+![image](https://raw.githubusercontent.com/anthonyrepo/budget-app/main/img/pytest.png)
+## Links
+- FreeCodeCamo's Scientific Computing with Python [certification curriculum](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
