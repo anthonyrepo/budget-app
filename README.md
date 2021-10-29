@@ -5,6 +5,7 @@
 A program that manages expenses
 
 ![image](https://raw.githubusercontent.com/anthonyrepo/budget-app/main/img/expenses.PNG)
+
 ![image](https://raw.githubusercontent.com/anthonyrepo/budget-app/main/img/spend_chart.PNG)
 
 ## Techonologies Used
